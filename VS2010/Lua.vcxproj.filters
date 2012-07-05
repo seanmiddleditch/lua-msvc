@@ -7,7 +7,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\luac.c">
+    <ClCompile Include="..\src\luac.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -37,14 +37,14 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <OutDir>$(SolutionDir)bin\$(Configuration)\</OutDir>
-    <IntDir>$(SolutionDir)build\$(Configuration)\$(ProjectName)\</IntDir>
+    <OutDir>$(SolutionDir)..\bin\VS2010\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)..\build\VS2010\$(Configuration)\$(ProjectName)\</IntDir>
     <TargetName>luac</TargetName>
     <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <OutDir>$(SolutionDir)bin\$(Configuration)\</OutDir>
-    <IntDir>$(SolutionDir)build\$(Configuration)\$(ProjectName)\</IntDir>
+    <OutDir>$(SolutionDir)..\bin\VS2010\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)..\build\VS2010\$(Configuration)\$(ProjectName)\</IntDir>
     <TargetName>luac</TargetName>
     <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
@@ -73,12 +73,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="src\luac.c" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="LuaStatic.vcxproj">
       <Project>{6773bce5-73f0-4eb7-8850-d2b749a9a05f}</Project>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\luac.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
