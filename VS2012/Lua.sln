@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lua", "Lua.vcxproj", "{A218DEB5-8E6D-4E5C-829C-3F5BED7A55BB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LuaStatic", "LuaStatic.vcxproj", "{6773BCE5-73F0-4EB7-8850-D2B749A9A05F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LuaDynamic", "LuaDynamic.vcxproj", "{A121486A-FC28-40BD-91E2-E5BF886A6CA6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A218DEB5-8E6D-4E5C-829C-3F5BED7A55BB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A218DEB5-8E6D-4E5C-829C-3F5BED7A55BB}.Debug|Win32.Build.0 = Debug|Win32
+		{A218DEB5-8E6D-4E5C-829C-3F5BED7A55BB}.Release|Win32.ActiveCfg = Release|Win32
+		{A218DEB5-8E6D-4E5C-829C-3F5BED7A55BB}.Release|Win32.Build.0 = Release|Win32
+		{6773BCE5-73F0-4EB7-8850-D2B749A9A05F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6773BCE5-73F0-4EB7-8850-D2B749A9A05F}.Debug|Win32.Build.0 = Debug|Win32
+		{6773BCE5-73F0-4EB7-8850-D2B749A9A05F}.Release|Win32.ActiveCfg = Release|Win32
+		{6773BCE5-73F0-4EB7-8850-D2B749A9A05F}.Release|Win32.Build.0 = Release|Win32
+		{A121486A-FC28-40BD-91E2-E5BF886A6CA6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A121486A-FC28-40BD-91E2-E5BF886A6CA6}.Debug|Win32.Build.0 = Debug|Win32
+		{A121486A-FC28-40BD-91E2-E5BF886A6CA6}.Release|Win32.ActiveCfg = Release|Win32
+		{A121486A-FC28-40BD-91E2-E5BF886A6CA6}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
